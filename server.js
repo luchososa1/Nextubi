@@ -10,7 +10,7 @@ app.use(cors());
 
 app.get('/proxy', async (req, res) => {
     // Este es el enlace público de las TVs de Argentina
-        const IPTV_URL = 'http://tv14s.xyz:8080/get.php?username=71700855&password=71700855&type=m3u_plus';
+        const IPTV_URL = 'https://iptv-org.github.io/iptv/ index.m3u';
         
 
             try {
