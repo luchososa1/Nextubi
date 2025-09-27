@@ -10,7 +10,8 @@ app.use(cors());
 
 app.get('/proxy', async (req, res) => {
     // Este es el enlace público de las TVs de Argentina
-        const IPTV_URL = 'https://radiosargentina.com.ar/TVAR.m3u';
+        const IPTV_URL = 'http://tv14s.xyz:8080/get.php?username=71700855&password=71700855&type=m3u_plus';
+        
 
             try {
                     console.log('Petición recibida. Buscando lista pública de canales...');
