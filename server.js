@@ -10,7 +10,7 @@ app.use(cors());
 
 app.get('/proxy', async (req, res) => {
     // Este es el enlace público de las TVs de Argentina
-        const IPTV_URL = 'https://iptv-org.github.io/iptv/ index.m3u';
+        const IPTV_URL = 'https://iptv-org.github.io/iptv/index.m3u';
         
 
             try {
